@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function display(){
+			document.getElementById("name").innerHTML="Front end"
+			 var name=document.getElementById("name").value
+			 var email=document.getElementById("email").value
+			 var password=document.getElementById("password").value
+			 var mobile=document.getElementById("mobile").value
+			 console.log(name,email,mobile,password)
+		}
+	</script>
+</head>
+<body>
+	<p><input type="text" id="name" placeholder="Enter your name"></p>
+	<p><input type="text" id="email" placeholder="Enter your email adress"></p>
+	<p><input type="text" id="password" placeholder="Enter password"></p>
+	<p><input type="text" id="mobile" placeholder="Mobile number"></p>
+	<button onclick="display()">Submit</button>
+
+
+</body>
+</html>
